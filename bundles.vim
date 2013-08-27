@@ -1,4 +1,4 @@
-call system("mkdir -p $HOME/.vim/{.backup,undo}")
+call system("mkdir -p $HOME/.vim/{.backup,.undo}")
 
 """ Auto installing vundle {{{
 	let has_vundle=1

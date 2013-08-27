@@ -77,7 +77,7 @@ source $HOME/.vim/bundles.vim
 
     """ Backup {{{
         set backup                              " backup file
-        set backupdir=$HOME/.vim/.backup            " where to store backup files
+        set backupdir=$HOME/.vim/.backup        " where to store backup files
         set backupext=~                         " append ~ to backups
         set noautowrite                         " 
         """ Persistent undo. Requires Vim 7.3 {{{
