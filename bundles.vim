@@ -1,4 +1,6 @@
-call system("mkdir -p $HOME/.vim/{.backup,.undo}")
+if !finddir('.backup', "$HOME/.vim")
+	silent !mkdir -p $HOME/.vim/{.backup,.undo}
+endif
 
 """ Auto installing vundle {{{
 	let has_vundle=1
@@ -27,6 +29,9 @@ call system("mkdir -p $HOME/.vim/{.backup,.undo}")
 		Bundle 'bling/vim-airline'
 		Bundle 'nanotech/jellybeans.vim'
 		Bundle 'mattn/emmet-vim'
+		Bundle 'mattn/webapi-vim'
+		Bundle 'mattn/gist-vim'
+		Bundle 'Townk/vim-autoclose'
 		"Bundle 'nathanaelkane/vim-indent-guides'
 	""" }}}
 """ }}}

@@ -16,3 +16,18 @@
 """ vim-airline {{{
 	" https://github.com/bling/vim-airline
 """ }}}
+
+""" Gist {{{
+	" dectect filetype from the filename
+	let g:gist_detect_filetype = 1
+
+	" open browser after the post
+	let g:gist_open_browser_after_post = 1
+
+	" show private gists with ':Gist -l'
+	let g:gist_show_privates = 1
+
+	" private by default
+	let g:gist_post_private = 1
+
+""" }}}
