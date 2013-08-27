@@ -32,6 +32,10 @@ endif
 		Bundle 'mattn/webapi-vim'
 		Bundle 'mattn/gist-vim'
 		Bundle 'Townk/vim-autoclose'
+		Bundle 'MarcWeber/vim-addon-mw-utils'
+		Bundle 'tomtom/tlib_vim'
+		Bundle 'garbas/vim-snipmate'
+		Bundle 'honza/vim-snippets'
 		"Bundle 'nathanaelkane/vim-indent-guides'
 	""" }}}
 """ }}}
