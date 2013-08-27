@@ -36,6 +36,7 @@ endif
 		Bundle 'tomtom/tlib_vim'
 		Bundle 'garbas/vim-snipmate'
 		Bundle 'honza/vim-snippets'
+		Bundle 'scrooloose/syntastic'
 		"Bundle 'nathanaelkane/vim-indent-guides'
 	""" }}}
 """ }}}
