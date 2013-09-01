@@ -31,3 +31,20 @@
 	let g:gist_post_private = 1
 
 """ }}}
+
+""" neocomplache {{{
+	"https://github.com/Shougo/neocomplcache.vim
+	let g:neocomplcache_enable_at_startup = 1
+	" Use smartcase.
+	let g:neocomplcache_enable_smart_case = 1
+	" Set minimum syntax keyword length.
+	let g:neocomplcache_min_syntax_length = 3
+	let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
+
+""" }}}
+	
+""" Dash {{{
+	"http://vim-doc.heroku.com/view?https://raw.github.com/rizzatti/dash.vim/master/doc/dash.txt
+	:nmap <silent> <leader>d <Plug>DashSearch
+	:nmap <silent> <leader>g <Plug>DashGlobalSearch
+""" }}}

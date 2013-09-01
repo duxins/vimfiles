@@ -37,6 +37,15 @@ endif
 		Bundle 'garbas/vim-snipmate'
 		Bundle 'honza/vim-snippets'
 		Bundle 'scrooloose/syntastic'
+		Bundle 'godlygeek/tabular'
+		Bundle 'tpope/vim-endwise'
+		Bundle 'tpope/vim-surround'
+		Bundle 'scrooloose/nerdcommenter'
+		Bundle 'Shougo/neocomplcache.vim'
+		Bundle 'rizzatti/funcoo.vim'
+		Bundle 'rizzatti/dash.vim'
+		Bundle 'tpope/vim-rails'
+		Bundle 'rodjek/vim-puppet'
 		"Bundle 'nathanaelkane/vim-indent-guides'
 	""" }}}
 """ }}}

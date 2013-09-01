@@ -1,4 +1,5 @@
 source $HOME/.vim/bundles.vim
+let mapleader=","
 
 """ User interface {{{
     """ General {{{
