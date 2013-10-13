@@ -17,5 +17,7 @@
 	" new Tab
 	nnoremap <silent> <C-t> :tabnew<CR>
 
+	set pastetoggle=<F10>
+
 """ }}}
 
