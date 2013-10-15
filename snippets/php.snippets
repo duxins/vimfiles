@@ -1,4 +1,30 @@
-snippet ppr 
+snippet prr
 	echo "<pre>";
 	print_r(${1});
 	echo "</pre>";
+snippet eco
+	echo "${1}";
+snippet fore
+	foreach(${1} as ${2}){
+		${3}
+	}
+snippet forek
+	foreach(${1} as $${2:key} => ${3}){
+		${4}
+	}
+snippet inco
+	include_once "${1:file}";
+snippet reqo
+	require_once "${1:file}";
+snippet prif
+	private function ${1:name}(${2:args}){
+		${3}
+	}
+snippet prof
+	protected function ${1:name}(${2:args}){
+		${3}
+	}
+snippet pubf
+	public function ${1:name}(${2:args}){
+		${3}
+	}
