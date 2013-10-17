@@ -65,8 +65,8 @@ let mapleader=","
     """ }}}
 
     """ Mouse {{{
-        set mousehide                           " hide mouse after chars typed
-        set mouse=a                             " use mouse in all modes
+        "set mousehide                           " hide mouse after chars typed
+        "set mouse=a                             " use mouse in all modes
     """ }}}
 
     """ Searching {{{
