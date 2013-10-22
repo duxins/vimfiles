@@ -104,12 +104,13 @@ let mapleader=","
 """}}}
 
 """ External Configurations {{{
+    " Plugins settings
+    source $HOME/.vim/plugins.vim
+
     " Key mappings
     source $HOME/.vim/mappings.vim
 
     " File types
     source $HOME/.vim/filetype.vim
 
-    " Plugins settings
-    source $HOME/.vim/plugins.vim
 """ }}}

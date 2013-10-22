@@ -17,6 +17,10 @@
 	" new Tab
 	nnoremap <silent> <C-t> :tabnew<CR>
 
+	" Dash 
+	:nmap <silent> <leader>sh <Plug>DashSearch
+	:nmap <silent> <leader>sg <Plug>DashGlobalSearch
+
 	set pastetoggle=<F10>
 
 """ }}}
