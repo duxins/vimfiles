@@ -23,6 +23,7 @@ endif
 	Bundle 'gmarik/vundle'
 
 	""" Plugins {{{
+		Bundle 'ack.vim'
 		Bundle 'kien/ctrlp.vim'
 		Bundle 'scrooloose/nerdtree'
 		Bundle 'tpope/vim-fugitive'
