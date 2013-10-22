@@ -23,5 +23,14 @@
 
 	set pastetoggle=<F10>
 
+	" Fugitive
+	nmap <leader>gb :GBlame<CR>
+	nmap <leader>gs :Gstatus<CR>
+	nmap <leader>gc :Gcommit<CR>
+	nmap <leader>ga :Gwrite<CR>
+	nmap <leader>gl :Glog<CR>
+	nmap <leader>gd :Gdiff<CR>
+	nmap <leader>gp :Gpush<CR>
+
 """ }}}
 
